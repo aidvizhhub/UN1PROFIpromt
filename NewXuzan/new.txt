@@ -333,7 +333,7 @@ named command contract & tool registry:
 
 1. дефолтный поиск делай по `skills-sh`, `skillsmp` или `clawhub` — они быстрые и не упираются в эту квоту;
 2. `--source github` (или `--source all`) дергай только если в основных реестрах пусто;
-3. если словил `rate limit exceeded` — не еби мозги перебором токенов, просто жди ровно минуту или ищи на `skillsmp.com`.
+3. **установка и фалбэк**: ставить строго через `skills-manager install <pkg> [--source NAME] [--project]`; для находок из `skillsmp` и упавшего по лимитам гитхаба брать `owner/repo@skill` и накатывать напрямую через `--source skills-sh` (npx skills add).
 
 
 
